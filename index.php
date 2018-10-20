@@ -37,27 +37,14 @@
                 <p class="c-txtsp">Takutoの内容がここに入ります</p>
                 <!--コメント-->
                 <div class="flex">
-                    <h5 class="his-content" >Product:1<br>
-                        <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
-                        <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
-                    </h5>
-
-                    <h5 class="his-content">Product:2<br>
-                        <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
-                        <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
-                    </h5>                             
-                    <h5 class="his-content">Product:3<br>
-                        <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
-                        <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
-                    </h5>                    
-                    <h5 class="his-content">Product:4<br>
-                        <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
-                        <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
-                    </h5>
-                    <h5 class="his-content">Product:5<br>
-                        <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
-                        <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
-                    </h5>
+                    <?php
+                    for($i=1;$i<=10;$i++
+                    print '<h5 class="his-content" >Product:' .$i .'<br>';
+                    print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                    print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                    print '</h5>';
+                    }
+                    ?>
                 </div>
                 
 
