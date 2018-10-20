@@ -1,18 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Content-Style-Type" content="text/css"/>
+        <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+
         <title>高円寺ポートフォリオ</title>
-        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type=“text/javascript” src="script.js"></script>
     </head>
     <body>
         <header class="header">
             <h1>Koenjineerポートフォリオ</h1>
-            <ul>
+            <ul>    
                 <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">ex1</a></li>
                 <li><a href="#">ex2</a></li>
-                <li><a href="#">ex3</a></li>
+                <li><a id="target" href="#">ex3</a></li>
             </ul>
         </header>
 
@@ -31,7 +37,7 @@
                 <p class="c-txtsp">Takutoの内容がここに入ります</p>
                 <!--コメント-->
                 <div class="flex">
-                    <h5 class="his-content">Product:1<br>
+                    <h5 class="his-content" >Product:1<br>
                         <p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>
                         <a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>
                     </h5>
@@ -60,7 +66,8 @@
             <p class="c-txtsp">
                 Hayatoの内容がここに入ります<br></p>
                 <a href="https://for-ml.appspot.com">・掲示板サイト</a>
-            
+                <input type="button" value="TEST" onclick="ale()">
+                
             </div>
             </div>
 
