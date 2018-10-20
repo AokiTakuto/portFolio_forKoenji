@@ -82,9 +82,9 @@ input[name="tab_item"] {
     overflow: hidden;
 }
 /*選択されているタブのコンテンツのみを表示*/
-#all:checked ~ #all_content,
-#programming:checked ~ #programming_content,
-#design:checked ~ #design_content {
+#takuto:checked ~ #takuto_content,
+#hayato:checked ~ #hayato_content,
+#daiki:checked ~ #daiki_content {
     display: block;
 }
 /*選択されているタブのスタイルを変える*/
@@ -106,7 +106,9 @@ p.content-text{
 }
 /*ボックス内linkのスタイル*/
 a.his-link{
-    font-size: 50%;
+    font-size: 12px;;
+    text-decoration: none;
+    color: black;
 }
 /*flexスタイル*/
 .flex{
