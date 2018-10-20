@@ -103,10 +103,20 @@ h5.his-content{
 p.content-text{
     font-size: 12px;
     font-weight: normal;
+<<<<<<< HEAD
 }
 /*ボックス内linkのスタイル*/
 a.his-link{
     font-size: 50%;
+=======
+    overflow: hidden; /* ハミ出した部分を隠す */
+    text-overflow: ellipsis; /* 「…」と省略 */
+}
+/*ボックス内linkのスタイル*/
+a.his-link{
+    font-size: 12px;
+    text-decoration: none;
+>>>>>>> refs/remotes/origin/master
 }
 /*flexスタイル*/
 .flex{
@@ -130,4 +140,8 @@ a.his-link{
     -webkit-box-shadow:rgba(100, 99, 99, 0.51) 7px 7px 8px -4px;
     -moz-box-shadow:rgba(100, 99, 99, 0.51) 7px 7px 8px -4px;
     border: 3px solid rgb(204, 203, 203);
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> refs/remotes/origin/master

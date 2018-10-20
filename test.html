@@ -12,7 +12,30 @@
         <script type=“text/javascript” src="changebg.js"></script>
     </head>
     <body>
-        
+            <p><a class="link" href="https://naruhodo.repop.jp/javascript-addeventlistener-on-class/" target="_blank">JavaScript addEventListener on class</a></p>
+            <div class="target">0</div>
+            <div class="target">1</div>
+            <div class="target">2</div>
+            <script>
+                //tagetclassグループで指定
+                const targets = document.getElementsByClassName('target');
+
+                //for分で要素数分ループ処理
+                for(let i = 0; i < targets.length; i++){
+                
+                    //クリックイベントでアラートを表示する
+                    targets[i].addEventListener('mouseenter', () => {
+                            alert(i + `をクリックしました`);
+                        
+                    }, false);
+                
+                }
+
+                for(key in targets){
+                    console.log(key);
+                }
+            </script>
     </body>
 
 </html>
+

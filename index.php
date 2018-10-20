@@ -34,9 +34,41 @@
 
              
             <div class="tab_content_description">
-                <p class="c-txtsp">Takutoの内容がここに入ります</p>
+                <!--<p class="c-txtsp">Takutoの内容がここに入ります</p>-->
                 <!--コメント-->
-                <div class="flex">
+            <div class="flex">
+                <?php
+                for($i=1;$i<=10;$i++){
+                print '<h5 class="his-content" >Product:' .$i .'<br>';
+                print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                print '</h5>';
+                }
+                ?>
+            </div>
+            </div>
+            </div>
+
+            <div class="tab_content" id="programming_content">
+            <div class="tab_content_description">
+            <p class="c-txtsp">
+            <div class="flex">
+                <?php
+                for($i=1;$i<=10;$i++){
+                print '<h5 class="his-content" >Product:' .$i .'<br>';
+                print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                print '</h5>';
+                }
+                ?>
+            </div>
+                
+            </div>
+            </div>
+
+            <div class="tab_content" id="design_content">
+            <div class="tab_content_description">
+            <div class="flex">
                     <?php
                     for($i=1;$i<=10;$i++){
                     print '<h5 class="his-content" >Product:' .$i .'<br>';
@@ -46,25 +78,6 @@
                     }
                     ?>
                 </div>
-                
-
-
-            </div>
-            </div>
-
-            <div class="tab_content" id="programming_content">
-            <div class="tab_content_description">
-            <p class="c-txtsp">
-                Hayatoの内容がここに入ります<br></p>
-                <a href="https://for-ml.appspot.com">・掲示板サイト</a>
-                <input type="button" value="TEST" onclick="ale()">
-                
-            </div>
-            </div>
-
-            <div class="tab_content" id="design_content">
-            <div class="tab_content_description">
-            <p class="c-txtsp">Daikiの内容がここに入ります</p>
             </div>
             </div>
             </div>
