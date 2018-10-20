@@ -30,57 +30,58 @@
             <label class="tab_item" for="programming">Hayato</label>
             <input id="design" type="radio" name="tab_item">
             <label class="tab_item" for="design">Daiki</label>
+
+
             <div class="tab_content" id="all_content">
 
              
-            <div class="tab_content_description">
-                <!--<p class="c-txtsp">Takutoの内容がここに入ります</p>-->
-                <!--コメント-->
-            <div class="flex">
-                <?php
-                for($i=1;$i<=10;$i++){
-                print '<h5 class="his-content" >Product:' .$i .'<br>';
-                print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
-                print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
-                print '</h5>';
-                }
-                ?>
-            </div>
-            </div>
+                <div class="tab_content_description">
+                    <!--<p class="c-txtsp">Takutoの内容がここに入ります</p>-->
+                    <!--コメント-->
+                    <div class="flex">
+                        <?php
+                        for($i=1;$i<=10;$i++){
+                        print '<h5 class="his-content" >Product:' .$i .'<br>';
+                        print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                        print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                        print '</h5>';
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
 
             <div class="tab_content" id="programming_content">
-            <div class="tab_content_description">
-            <p class="c-txtsp">
-            <div class="flex">
-                <?php
-                for($i=1;$i<=10;$i++){
-                print '<h5 class="his-content" >Product:' .$i .'<br>';
-                print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
-                print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
-                print '</h5>';
-                }
-                ?>
-            </div>
+                <div class="tab_content_description">
+                    <p class="c-txtsp">
+                    <div class="flex">
+                        <?php
+                        for($i=1;$i<=10;$i++){
+                        print '<h5 class="his-content" >Product:' .$i .'<br>';
+                        print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                        print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                        print '</h5>';
+                        }
+                        ?>
+                    </div>
                 
-            </div>
+                </div>
             </div>
 
             <div class="tab_content" id="design_content">
-            <div class="tab_content_description">
-            <div class="flex">
-                    <?php
-                    for($i=1;$i<=10;$i++){
-                    print '<h5 class="his-content" >Product:' .$i .'<br>';
-                    print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
-                    print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
-                    print '</h5>';
-                    }
-                    ?>
+                <div class="tab_content_description">
+                    <div class="flex">
+                            <?php
+                            for($i=1;$i<=10;$i++){
+                            print '<h5 class="his-content" >Product:' .$i .'<br>';
+                            print '<p class="content-text">ここに、各プロダクトの説明文を入れます。例えば、このリンクは掲示板サイトに通ります。</p>';
+                            print '<a href="https://for-ml.appspot.com" id="his-link">掲示板サイト</a>';
+                            print '</h5>';
+                            }
+                            ?>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-            </div>
     </body>
-
 </html>
