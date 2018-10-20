@@ -1,5 +1,6 @@
 /*タブ切り替え全体のスタイル*/
 
+
 header {
     margin: 0px;
     padding-bottom: 0px;
@@ -13,9 +14,10 @@ header {
     float: left;
     display:  table-cell; 
     vertical-align:  middle;
+    background: linear-gradient(-135deg, #555555, white);
 }
 h1 {
-    color: white;
+    color: black;
     padding-left: 20px;
     float: left;
 }
@@ -24,7 +26,6 @@ ul {
 	margin: 0;
 	padding-top: 25px;
 	list-style-type: none;
-    background-color: #555555;
     display: inline-block;
     float: right;
 }
