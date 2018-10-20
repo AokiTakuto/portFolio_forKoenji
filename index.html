@@ -6,16 +6,23 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>
-            高円寺ポートフォリオ
-        </h1>    
+        <header class="header">
+            <h1>高円寺ポートフォリオ</h1>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">ex1</a></li>
+                <li><a href="#">ex2</a></li>
+                <li><a href="#">ex3</a></li>
+            </ul>
+        </header>
+
         <div class="tabs">
             <input id="all" type="radio" name="tab_item" checked>
-            <label class="tab_item" for="all">総合</label>
+            <label class="tab_item" for="all">Takuto</label>
             <input id="programming" type="radio" name="tab_item">
-            <label class="tab_item" for="programming">プログラミング</label>
+            <label class="tab_item" for="programming">Hayato</label>
             <input id="design" type="radio" name="tab_item">
-            <label class="tab_item" for="design">デザイン</label>
+            <label class="tab_item" for="design">Daiki</label>
             <div class="tab_content" id="all_content">
             <div class="tab_content_description">
             <p class="c-txtsp">総合の内容がここに入ります</p>
