@@ -1,6 +1,6 @@
 /*タブ切り替え全体のスタイル*/
 
-.header {
+header {
     margin: 0px;
     padding-bottom: 0px;
     font-family: serif;
@@ -11,6 +11,8 @@
     margin: 0px auto;
     background-color: #555555;
     float: left;
+    display:  table-cell; 
+    vertical-align:  middle;
 }
 h1 {
     color: white;
@@ -18,34 +20,26 @@ h1 {
     float: left;
 }
 ul {
-	width: 200px;
+	width:auto;
 	margin: 0;
-	padding: 0;
+	padding-top: 25px;
 	list-style-type: none;
     background-color: #555555;
-    float: left;
-    
+    display: inline-block;
+    float: right;
 }
 li a {
 	display: block;
 	padding: 8px 16px;
 	text-decoration: none;
-    color: #000000;
+    color: white;
 }
 li {
-	text-align: center;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
 }
-li:last-child {
-	border-bottom: none;
-}
-li a.active {
-	color: black;
-    background-color: white;
-}
-li a:hover:not(.active) {
-	color: #555555;
-    background-color: #555555;
-}
+
 
 .tabs {
     margin-top: 50px;
