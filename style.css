@@ -31,14 +31,14 @@ ul {
 }
 li a {
 	display: block;
-	padding: 8px 16px;
+	padding: 7px 16px;
 	text-decoration: none;
     color: white;
 }
 li {
     text-align: center;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 
@@ -46,7 +46,7 @@ li {
     margin-top: 50px;
     padding-bottom: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -95,18 +95,21 @@ input[name="tab_item"] {
 
 /*ボックス内のタイトルのスタイル*/
 h5.his-content{
-    font-size: 120%;
+    font-size: 16px;
     font-weight: bold;
 }
 
 /*ボックス内のテキストのスタイル*/
 p.content-text{
-    font-size: 80%;
-    font-weight: normal
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden; /* ハミ出した部分を隠す */
+    text-overflow: ellipsis; /* 「…」と省略 */
 }
 /*ボックス内linkのスタイル*/
-a#his-link{
-    font-size: 50%;
+a.his-link{
+    font-size: 12px;
+    text-decoration: none;
 }
 /*flexスタイル*/
 .flex{
@@ -117,18 +120,17 @@ a#his-link{
     flex-wrap: wrap
 
   }
-  .flex > *{
-    width: 8%;
+  /*ボックスのスタイル*/
+  .col{
+    width: calc(100% / 3);
     flex-basis: 25%;
     background: #fff;
     font-size: 64px;
     text-align: center;
+    margin-bottom: 30px;
     border-radius: 15px 15px 15px 15px;
-
-    
-  }
-  .flex > *{
-    border: 3px solid rgb(206, 204, 204);
-    border-radius: 15px 15px 15px 15px;
-
+    box-shadow:rgba(100, 99, 99, 0.51) 7px 7px 8px -4px;
+    -webkit-box-shadow:rgba(100, 99, 99, 0.51) 7px 7px 8px -4px;
+    -moz-box-shadow:rgba(100, 99, 99, 0.51) 7px 7px 8px -4px;
+    border: 3px solid rgb(204, 203, 203);
   }
